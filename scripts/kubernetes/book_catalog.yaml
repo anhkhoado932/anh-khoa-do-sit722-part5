@@ -20,7 +20,7 @@ spec:
     spec:
       containers: 
       - name: book-catalog
-        image: sit72282c.azurecr.io/book-catalog:$VERSION
+        image: sit72282c.azurecr.io/book_catalog:$VERSION
         imagePullPolicy: Always
         env:
         - name: DATABASE_URL

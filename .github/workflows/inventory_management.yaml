@@ -32,6 +32,7 @@ jobs:
       CONTAINER_REGISTRY: ${{ secrets.CONTAINER_REGISTRY }}
       REGISTRY_UN: ${{ secrets.REGISTRY_UN }}
       REGISTRY_PW: ${{ secrets.REGISTRY_PW  }}
+      DATABASE_URL: ${{ secrets.DATABASE_URL  }}
       NAME: inventory_management
       DIRECTORY: inventory_management
 

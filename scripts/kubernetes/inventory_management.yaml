@@ -20,7 +20,7 @@ spec:
     spec:
       containers: 
       - name: inventory-management
-        image: sit72282c.azurecr.io/inventory-management:latest
+        image: sit72282c.azurecr.io/inventory-management:$VERSION
         imagePullPolicy: Always
         env:
         - name: DATABASE_URL

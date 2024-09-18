@@ -15,7 +15,6 @@ data "azurerm_client_config" "current" {}
 
 output "current_client_id" {
   value = data.azurerm_client_config.current.client_id
-  sensitive = true
 }
 
 output "current_tenant_id" {
